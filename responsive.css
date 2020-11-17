@@ -97,7 +97,7 @@
         width:100%;height:50%;
     }
     .wrapper .content .contact .small-contact{
-        width:100%;
+        width:100%;margin: 0;
     }
     .wrapper .content .contact .small-contact .contact-text{
         left:0px; font-size: 10px;padding:2px;width:370px;
