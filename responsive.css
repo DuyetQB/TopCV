@@ -19,6 +19,9 @@
     .wrapper .content .first-div{
         display: flex; flex-direction: column;
     }
+    .wrapper .content .first-div .div-left-text .wrap-left-text .text-p{
+        font-size: 17px;
+    }
     .wrapper .content .first-div .div-left-text{
         width:100%;height:50%;
     }
@@ -38,7 +41,7 @@
         width:100%;height:50%;
     }
     .wrapper .content .introduce .introduce-right{
-        width:100%;height:50%;
+        width:99%;height:50%;
     }
     .wrapper .content .introduce .introduce-right .introduce-p {
         width:100%;padding-left: 3px;
@@ -94,12 +97,12 @@
         width:100%;
     }
     .wrapper .content .contact .small-contact .contact-text{
-        left:0px; font-size: 10px;padding:2px;
+        left:0px; font-size: 10px;padding:2px;width:420px;
     }
 
    
     .wrapper .content .contact .small-contact .subscribe-wrap{
-        width:100%;left:0px;padding-left: 20px ;
+        width:100%;left:0px;padding-left: 10px ;
     }
     .wrapper .content .contact .small-contact .subscribe-wrap .subscribe-child{
         left:20px;width:80px;font-weight: bolder;font-size: 13px;
