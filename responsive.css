@@ -46,6 +46,9 @@
     .wrapper .content .introduce .introduce-right .introduce-p {
         width:100%;padding-left: 3px;
     }
+    .wrapper .content .introduce .introduce-right .introduce-text{
+        padding: 0px;
+    }
   
     .wrapper .content .introduce .introduce-right .download{
         left:80px;
@@ -97,7 +100,7 @@
         width:100%;
     }
     .wrapper .content .contact .small-contact .contact-text{
-        left:0px; font-size: 10px;padding:2px;width:420px;
+        left:0px; font-size: 10px;padding:2px;width:370px;
     }
 
    
