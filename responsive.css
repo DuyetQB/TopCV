@@ -40,6 +40,9 @@
     .wrapper .content .introduce .introduce-left{
         width:100%;height:50%;
     }
+    .wrapper .content .introduce .introduce-left .introduce-image{
+        width:100%;
+    }
     .wrapper .content .introduce .introduce-right{
         width:99%;height:50%;
     }
