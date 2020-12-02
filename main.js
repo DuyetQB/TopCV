@@ -89,6 +89,13 @@ function hide(){
 }
 
 
+function golink1(){
+  window.location.href ="https://secondpage-cv.vercel.app/love.html";
+}
+function golink2(){
+  window.location.href ="https://secondpage-cv.vercel.app/love.html";
+}
+
 
 
 function onReady(callback) {
