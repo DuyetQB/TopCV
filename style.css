@@ -20,6 +20,7 @@ html{
     height:5000px;width:100%;box-sizing: border-box;
     position: relative;
     overflow: hidden;
+   
 }
 .wrapper .header{
     width:100%;
@@ -621,7 +622,9 @@ border: 1px solid rgb(255, 255, 255);
   box-shadow:1px 1px 4px  #555458;
 
 }
-
+.wrapper .content .contact .small-contact .subscribe-wrap .subscribe-child:hover{
+  box-shadow: 0 0 7px #333 ;
+}
 
 
 
