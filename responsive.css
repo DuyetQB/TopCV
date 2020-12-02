@@ -113,6 +113,9 @@
     .wrapper .content .contact .small-contact .subscribe-wrap .subscribe-child{
         left:20px;width:80px;font-weight: bolder;font-size: 13px;
     }
+    .wrapper .footer .copyright{
+        font-size: 16px;
+    }
 }
 
 
@@ -129,6 +132,9 @@
     }
     .wrapper .header .right{
         width:80%; 
+    }
+    .wrapper .header .right .header-ul .header-li{
+        padding: 5px 5px ;
     }
     .wrapper .header .right .header-ul .header-li a{
         font-size: 13px;

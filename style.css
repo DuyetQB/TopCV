@@ -6,6 +6,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Goldman:wght@700&family=Josefin+Sans:ital@1&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
 
 
 
@@ -108,8 +109,8 @@ padding:10px 14px;
 }
 .wrapper .header .right .header-ul .header-li a{
 text-decoration: none;
-line-height: 60px;font-size: 20px; color: #000;font-family: 'Raleway', sans-serif;
-font-weight: bold;
+line-height: 60px;font-size: 20px; color: #000;font-family: 'Castoro', serif;
+font-weight: bolder;
 
 }
 .wrapper .header .right .header-ul .header-li a:hover{
