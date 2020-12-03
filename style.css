@@ -202,17 +202,18 @@ background: #fff;  box-shadow: 1px 1px 2px 2px  rgb(1, 255, 213) ;
 }
 .wrapper .content .hire-me-zoom{
   width:400px;
-  height:200px;
+  height:240px;
   background-color: rgb(243, 235, 235);
-  z-index: 15;
+  z-index: 5;
   position: absolute;
   display: none;
   top:340px ;
   left:0px;
-  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   padding-right: 5px ;
   animation: left 0.7s ease-in-out ;
   -webkit-animation: left 0.7s ease-in-out ;
+  text-align: center;
 }
 @keyframes left{
   from {margin-left: -400px;
@@ -221,10 +222,80 @@ background: #fff;  box-shadow: 1px 1px 2px 2px  rgb(1, 255, 213) ;
     margin-left: 100px ;
   }
 }
+.wrapper .content .hire-me-zoom .phone-ring{
+
+  width:60px;
+  height:60px;
+  border-radius:50% ;
+  -webkit-border-radius:50% ;
+  -moz-border-radius:50% ;
+  -ms-border-radius:50% ;
+  -o-border-radius:50% ;
+  background-color: rgb(68, 236, 228);
+  position: relative; top:40px;
+  left:170px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+.wrapper .content .hire-me-zoom .phone-ring:hover{
+  background-color: rgb(240, 8, 240);
+}
+.wrapper .content .hire-me-zoom i{
+  font-size: 30px;
+  animation: rotate 0.6s ;
+  -webkit-animation: rotate 0.6s infinite;
+  line-height: 60px ;
+  transition: all 0.4s ;
+  -webkit-transition: all 0.4s ;
+  -moz-transition: all 0.4s ;
+  -ms-transition: all 0.4s ;
+  -o-transition: all 0.4s ;
+}
+@keyframes rotate{
+
+  0% {
+    -webkit-transform:rotate(0) scale(1) skew(1deg)
+}
+
+10% {
+    -webkit-transform:rotate(-25deg) scale(1) skew(1deg)
+}
+
+20% {
+    -webkit-transform:rotate(25deg) scale(1) skew(1deg)
+}
+
+30% {
+    -webkit-transform:rotate(-25deg) scale(1) skew(1deg)
+}
+
+40% {
+    -webkit-transform:rotate(25deg) scale(1) skew(1deg)
+}
+
+50% {
+    -webkit-transform:rotate(0) scale(1) skew(1deg)
+}
+
+100% {
+    -webkit-transform:rotate(0) scale(1) skew(1deg)
+}
+}
+.wrapper .content .hire-me-zoom .contact-zoom-img{
+   width:80px;
+   height:80px;
+   border-radius:50% ;
+   -webkit-border-radius:50% ;
+   -moz-border-radius:50% ;
+   -ms-border-radius:50% ;
+   -o-border-radius:50% ;
+   object-fit: cover;
+}
 .wrapper .content .hire-me-zoom .close{
   font-size: 30px;
   font-weight: bold;
   cursor: pointer;float:right;
+  position: relative; bottom:170px;
 
 }
 .wrapper .content .hire-me-zoom .close:hover{
