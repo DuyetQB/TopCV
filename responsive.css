@@ -40,6 +40,10 @@
     .wrapper .content .introduce .introduce-left{
         width:100%;height:50%;
     }
+    .wrapper .content .hire-me-zoom .close{
+        float: left;
+    }
+
     .wrapper .content .introduce .introduce-left .introduce-image{
         width:100%;
     }
