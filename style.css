@@ -173,6 +173,7 @@ font-family: 'Goldman', cursive;
 }
 .wrapper .content .first-div .div-left-text .wrap-left-text .wrap-hire .hire-me{
        width:150px;
+     
        height:60%;
        text-align: center;
        padding-top: 17px;
@@ -198,6 +199,36 @@ font-family: 'Goldman', cursive;
 color:#000;
 background: #fff;  box-shadow: 1px 1px 2px 2px  rgb(1, 255, 213) ;
 
+}
+.wrapper .content .hire-me-zoom{
+  width:400px;
+  height:200px;
+  background-color: rgb(243, 235, 235);
+  z-index: 15;
+  position: absolute;
+  display: none;
+  top:340px ;
+  left:0px;
+  
+  padding-right: 5px ;
+  animation: left 0.7s ease-in-out ;
+  -webkit-animation: left 0.7s ease-in-out ;
+}
+@keyframes left{
+  from {margin-left: -400px;
+  }
+  to{
+    margin-left: 100px ;
+  }
+}
+.wrapper .content .hire-me-zoom .close{
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;float:right;
+
+}
+.wrapper .content .hire-me-zoom .close:hover{
+  color:green;
 }
 
 .wrapper .content .first-div .div-left-text .wrap-left-text .wrap-hire .get-cv{

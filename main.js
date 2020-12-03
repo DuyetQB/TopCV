@@ -1,4 +1,28 @@
 
+var hire = document.querySelector(".hire-me");
+
+var hirezoom = document.querySelector(".hire-me-zoom");
+var xx = document.querySelector(".close");
+
+
+hire.addEventListener("click", function(){
+  hirezoom.style.display = "block";
+})
+ 
+ 
+
+xx.addEventListener("click" ,function(){
+  hirezoom.style.display = "none";
+})
+ 
+
+
+
+
+
+
+
+
 document.addEventListener("DOMContentLoaded" , function(){
     var icon = document.querySelector(".small-icon");
     var content = document.querySelector(".small-nav");
@@ -17,7 +41,7 @@ document.addEventListener("DOMContentLoaded" , function(){
         }
     }
 },false)
-
+//function to click icon to show nav
 
 window.onscroll = function(){myScroll()};
 
@@ -104,7 +128,7 @@ function onReady(callback) {
         window.clearInterval(intervalId);
         callback.call(this);
       }
-    }, 4000);
+    }, 3300);
   }
   
   function setVisible(selector, visible) {
