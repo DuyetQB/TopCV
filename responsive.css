@@ -42,6 +42,8 @@
     }
     .wrapper .content .hire-me-zoom .close{
         float: left;
+        left:6px;
+        font-size: 30px;
     }
 
     .wrapper .content .introduce .introduce-left .introduce-image{
