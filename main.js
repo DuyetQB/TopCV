@@ -5,6 +5,7 @@ var hirezoom = document.querySelector(".hire-me-zoom");
 var xx = document.querySelector(".close");
 
 
+
 hire.addEventListener("click", function(){
   hirezoom.style.display = "block";
 })
@@ -43,21 +44,38 @@ document.addEventListener("DOMContentLoaded" , function(){
 },false)
 //function to click icon to show nav
 
+
 window.onscroll = function(){myScroll()};
 
 var nav = document.querySelector(".header");
-var sticky = nav.offsetTop;
+ var sticky = nav.offsetTop;
+ mybutton = document.querySelector(".ScrollBtn");
 
 function myScroll(){
-if(window.pageYOffset >= 70){
+if(window.pageYOffset >= 70 ){
     nav.classList.add("sticky");
+   
 }
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  mybutton.style.display = "block";
+}
+
 
 else{
     nav.classList.remove("sticky");
+    mybutton.style.display = "none";
 }
 
 }
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+// When the user clicks on the button, scroll to the top of the document
+
+
+
 
 
 
@@ -139,4 +157,13 @@ function onReady(callback) {
     setVisible('.wrapper', true);
     setVisible('.container-loading', false);
   });
+
+//loadding 
+
+
+
+
+
+
+
 
