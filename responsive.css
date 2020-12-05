@@ -11,6 +11,9 @@
     top:400px;
 
 }
+.wrapper .content .first-div .div-left-text .wrap-left-text{
+    padding-left: 40px ;
+}
     .wrapper .header .left{
         padding-left: 10px ;
     }
@@ -136,6 +139,11 @@
 @media screen and (min-width:740px) and (max-width:1023px){
     .wrapper{
         height:6500px;
+    }
+    .wrapper .ScrollBtn{
+        right:10px;
+        top:400px;
+    
     }
     .wrapper .header .left{
         padding-left: 20px ;width:20%;
