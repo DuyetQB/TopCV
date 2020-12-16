@@ -75,6 +75,10 @@ function topFunction() {
 // When the user clicks on the button, scroll to the top of the document
 
 
+function callMe(){
+  window.location.href = 'tel:0839650936';
+}
+
 
 
 
