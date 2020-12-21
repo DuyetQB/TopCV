@@ -8,7 +8,7 @@
 }
 .wrapper .ScrollBtn{
     right:10px;
-    top:400px;
+    top:300px;
 
 }
 .wrapper .content .first-div .div-left-text .wrap-left-text{
@@ -212,7 +212,7 @@
 
 @media screen and (min-width:1024px){
     .wrapper{
-        width:1354px;
+        width:1360px;
         margin:0px auto;
     }
 }

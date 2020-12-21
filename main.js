@@ -67,17 +67,17 @@ else{
 }
 
 }
-function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
+// function topFunction() {
+//   document.body.scrollTop = 0; // For Safari
+//   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+// }
 
 // When the user clicks on the button, scroll to the top of the document
 
 
-function callMe(){
-  window.location.href = 'tel:0839650936';
-}
+
+  
+
 
 
 
@@ -144,23 +144,23 @@ function golink2(){
 
 
 
-function onReady(callback) {
-    var intervalId = window.setInterval(function() {
-      if (document.getElementsByTagName('body')[0] !== undefined) {
-        window.clearInterval(intervalId);
-        callback.call(this);
-      }
-    }, 3300);
-  }
+// function onReady(callback) {
+//     var intervalId = window.setInterval(function() {
+//       if (document.getElementsByTagName('body')[0] !== undefined) {
+//         window.clearInterval(intervalId);
+//         callback.call(this);
+//       }
+//     }, 3300);
+//   }
   
-  function setVisible(selector, visible) {
-    document.querySelector(selector).style.display = visible ? 'block' : 'none';
-  }
+//   function setVisible(selector, visible) {
+//     document.querySelector(selector).style.display = visible ? 'block' : 'none';
+//   }
   
-  onReady(function() {
-    setVisible('.wrapper', true);
-    setVisible('.container-loading', false);
-  });
+//   onReady(function() {
+//     setVisible('.wrapper', true);
+//     setVisible('.container-loading', false);
+//   });
 
 //loadding 
 
