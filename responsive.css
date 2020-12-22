@@ -86,6 +86,7 @@
     }
     .wrapper .content .skills .skills-wrap .item{
         margin: 0px;width:99%;
+        box-shadow: 0 0 1px #ccc ;
     }
     .wrapper .content .skills .skills-wrap .item .item-text{
         top:142px;
